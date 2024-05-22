@@ -1,0 +1,58 @@
+.padre{
+    width: 1140px;
+    height: 1000px;
+
+    border: 1px solid black;
+}
+
+header{
+    width: 1140px;
+    height: 150px;
+
+    background-color: #ff9f1a;
+}
+
+.contenedor_arriba{
+
+    display: grid;
+    grid-template-columns: 368px 172px 172px 172px 172px 80px;
+    grid-template-rows: 1fr;
+
+    width: 1140px;
+    height: 75px;
+    
+    border: 1px solid orangered;
+}
+/*Imagenes*/
+
+.contenedor_arriba img{
+
+    width: 368px;
+    height: 73px;
+
+}
+
+.imagen2{
+
+    width: 124px;
+    height: 79px;
+
+}
+
+.contenedor_abajo{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    display: grid;
+    grid-template-columns: 162px 162px 162px 162px 162px 162px 162px;
+    grid-template-rows: 1fr; 
+
+    width: 1140px;
+    height: 75px;
+    
+    border: 1px solid rgb(138, 97, 22);
+}
